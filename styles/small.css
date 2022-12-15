@@ -225,12 +225,6 @@ main .regular-cards2 img{
     gap: 2rem;
     padding: 2rem 1em;
     align-items: center;
-    /* min-height: 100vh; */
-    /* height: auto; */
-    /* background-color: aliceblue; */
-    /* background-size: cover; */
-
-
 }
 
 .regular-cards iframe {
