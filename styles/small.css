@@ -186,6 +186,16 @@ h3 {
     font-size: 2rem;
 }
 
+main .regular-cards2 img{
+    height: 10rem;
+    
+    /* max-width: 100%;
+    margin: 1rem;
+    background-color: ;
+    border-radius: 5%;
+    /* padding: .5rem; */
+}
+
 
 
 .description p,
@@ -209,6 +219,17 @@ h3 {
 }
 .regular-cards2 section{
     background: #ffffffa5;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 1em;
+    align-items: center;
+    /* min-height: 100vh; */
+    /* height: auto; */
+    /* background-color: aliceblue; */
+    /* background-size: cover; */
+
 
 }
 
