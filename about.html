@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="ALEX GIRALDO">
+    <meta name="description" content="Bountiful Foods is small business specializing in organic, locally grown foods.">
+    <meta name="keywords"
+        content="Carlsbad, California, food trucks, local business, fresh food, healthy food, organic food">
+    <!-- FAVICON -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <title>BOUNTIFUL FOODS</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <!-- CAMBIAR -->
+            <a href="index.html"><img src="images/Logo-1.webp" alt="Bountiful Foods Logo"></a>
+        </div>
+        <div class="page-header">
+            <h1>BOUNTIFUL FOODS</h1>
+            <p>Locally Grown Foods</p>
+        </div>
+    </header>
+
+    <nav class="clearfix">
+        <button onclick="toggle()">&#9776; <span class="menu">Menu</span></button>
+        <ul id="nav-menu" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="join.html">Fresh</a></li>
+            <li><a class="active" href="#">About</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <div class="box-container">
+            <h2>ABOUT OUR BUSINESS</h2>
+            <!-- <h3>Your highly useful business resources portal</h3> -->
+            <p>
+                Founded in 2000, we are the pioneers in the 100% organic fruits in the California area.
+                We have been serving in Carlsbad for the past 22 years and we currently have 3 locations – on Los
+                Angeles, San Diego. We offer catering for any special events! Bring your friends and Family!
+            </p>
+            <p>
+                100% fresh products & delicious food. We offer a variety of healthy, wholesome and nutritious fresh
+                products essential to a healthy lifestyle. Whether you are looking for a healthy lunchtime snack, or
+                want to give someone a tasty special treat, we have the right food for you.
+            </p>
+            <p>
+                Friendly staff & relaxing atmosphere. Everyone who works here is friendly, fun and easy to talk to. In
+                this way we make you feel relaxed. Our place is relaxing and comfortable so you can enjoy your food and
+                still feel comfortable.
+            </p>
+        </div>
+
+
+
+
+
+        <div class="box-container">
+            <div class="regular-cards">
+                <h2>FEEDBACK</h2>
+                <!-- CAMBIAR -->
+                <form action="thanks.html" method="GET">
+                    <fieldset>
+                        <label class="top" for="fname">NAME<input type="text" name="fname" id="fname" pattern=".{5,}"
+                                placeholder="Your Name" title="Only letters and at least 5 characters" required></label>
+
+                        <label class="top" for="phone">PHONE<input type="tel" name="phone" id="phone"
+                                placeholder="Phone Number"></label>
+
+                        <label class="top" for="email">EMAIL<input type="email" name="email" id="email"
+                                placeholder="youremail@email.com" required></label>
+
+                        <label class="top" for="textfield">SEND US YOUR THOUGHTS <textarea name="textfield"
+                                id="textfield" placeholder="Please send us your concern" cols="30"
+                                rows="10"></textarea></label>
+                    </fieldset>
+                    <div id="call-to-action-button">
+                        <input type="submit" value="SEND">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="box-container">
+            <div class="regular-cards upcoming-events">
+                <h2>LOCATIONS</h2>
+            </div>
+        </div>
+
+        <div class="box-container">
+            <h2>BUSINESS INFORMATION</h2>
+            <div class="regular-cards info">
+                <h3>Business Hours</h3>
+                <p>Mon - Fri</p>
+                <p>8AM - 8PM</p>
+                <p>Sat - Sun</p>
+                <p>10AM - 5PM</p>
+                <br>
+
+                <h3>Our Location</h3>
+                <p>1695 Market St,</p>
+                <p>San Francisco, CA 94103</p>
+                <br>
+
+                <h3>Our Phone Number</h3>
+                <p>+1 (555) 555-5555</p>
+            </div>
+        </div>
+
+        <div class="box-container">
+            <div class="regular-cards description">
+                <h2>MAP</h2>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319121.078255834!2d-122.36735812000305!3d35.66889585014625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809fbfca4a3b%3A0xa4c5256cc7fca143!2sBountiful%20Foods!5e0!3m2!1sen!2sus!4v1671068223701!5m2!1sen!2sus"
+                    width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="contact-info">
+                <div class="contact-email"><img src="images/bxs-envelope.svg" alt="email icon" width="26">
+                    <p> contact@bf.com </p>
+                </div>
+                <div class="contact-phone"><img src="images/bxs-phone.svg" alt="phone icon" width="26">
+                    <p> 555 - 5555 </p>
+                </div>
+            </div>
+
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank" rel="noreferrer"><img
+                        src="images/bxl-facebook-circle.svg" alt="facebook-icon" width="45"></a>
+                <a href="https://instagram.com" target="_blank" rel="noreferrer"><img src="images/bxl-instagram.svg"
+                        alt="instagram-icon" width="45"></a>
+                <a href="https://twitter.com" target="_blank" rel="noreferrer"><img src="images/bxl-twitter.svg"
+                        alt="twitter-icon" width="45"></a>
+            </div>
+
+            <div class="copyright">
+                Bountiful Foods © 2021
+                <br>
+                Alex Giraldo
+                <br>
+                <span id="last-modification"></span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" rel="preload"></script>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>

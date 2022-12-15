@@ -1,0 +1,100 @@
+{
+    "businessCards": [
+      {
+        "name": "American Sports Car Design",
+        "phone": "+1(321) 268-1118",
+        "address": "1525 Armstrong Dr, Titusville, FL 32780",
+        "website": "https://americansportscar.com/",
+        "imageurl": "https://americansportscar.com/web/wp-content/uploads/sites/2/2016/10/ASC-logo-new.png",
+        "membership": "2"
+      },
+      {
+        "name": "El Leoncito",
+        "phone": "+1(321) 267-1159",
+        "address": "4280 S Washington Ave, Titusville, FL 32780",
+        "website": "https://elleoncito.com/",
+        "imageurl": "https://elleoncito.com/imgs/logo.png",
+        "membership": "4"
+      },
+      {
+        "name": "BurgerRobs",
+        "phone": "+1(407) 952-1621",
+        "address": "3486 S Hopkins Ave, Titusville, FL 32780",
+        "website": "http://www.burgerrobshq.com/",
+        "imageurl": "https://popmenucloud.com/cdn-cgi/image/width=1920,height=1920,format=auto,fit=scale-down/yulbvkjt/aed2d4cd-a541-4a50-b61b-03d5c1b4f4eb.png",
+        "membership": "1"
+      },
+      {
+        "name": "Sonny's BBQ",
+        "phone": "+1(321) 385-2665",
+        "address": "2900 Cheney Hwy, Titusville, FL 32780",
+        "website": "https://www.sonnysbbq.com/",
+        "imageurl": "https://static.olocdn.net/img/sonnysbbq/logo/logo-wide.svg?v=1669673630",
+        "membership": "1"
+      },
+      {
+        "name": "Sergio's Tacos",
+        "phone": "+1(321) 677-5124",
+        "address": "2900 Cheney Hwy, Titusville, FL 32780",
+        "website": "https://www.sergiostacosgrill.com/",
+        "imageurl": "https://www.sergiostacosgrill.com/ressources/images/22944036e7c5.png",
+        "membership": "2"
+      },
+      {
+        "name": "Casa Coquina",
+        "phone": "+1(321) 268-4653",
+        "address": "4010 Coquina Ave, Titusville, FL 32780",
+        "website": "https://www.casacoquina.com/",
+        "imageurl": "https://d2hzumlgxagx5r.cloudfront.net/1800cc30-f249-473e-9ded-500414dee47b.png",
+        "membership": "3"
+      },
+      {
+        "name": "Titusville Civic Center",
+        "phone": "+1(321) 383-0254",
+        "address": "4220 S Hopkins Ave, Titusville, FL 32780",
+        "website": "https://titusvilleciviccenter.com/",
+        "imageurl": "https://img1.wsimg.com/isteam/ip/947e7165-750b-49d4-8710-44e8d44f6303/Civic%20Center%20Logo.jpg/:/rs=w:200,h:200,cg:true,m/cr=w:200,h:200/qt=q:95",
+        "membership": "1"
+      },
+      {
+        "name": "Titusville Civic Center",
+        "phone": "+1(321) 300-4649",
+        "address": "4220 S Hopkins Ave, Titusville, FL 32780",
+        "website": "https://flooringandbath.com/",
+        "imageurl": "https://flooringandbath.com/wp-content/uploads/2020/12/cropped-IMG_8635-copy-2.jpg",
+        "membership": "3"
+      },
+      {
+        "name": "Titusville Civic Center",
+        "phone": "+1(321) 300-4649",
+        "address": "4220 S Hopkins Ave, Titusville, FL 32780",
+        "website": "https://flooringandbath.com/",
+        "imageurl": "https://flooringandbath.com/wp-content/uploads/2020/12/cropped-IMG_8635-copy-2.jpg",
+        "membership": "3"
+      },
+      {
+        "name": "Playalinda Brewing Company",
+        "phone": "+1(321) 567-5974",
+        "address": "5220 S Washington Ave, Titusville, FL 32780",
+        "website": "https://www.playalindabrewingcompany.com/",
+        "imageurl": "https://www.playalindabrewingcompany.com/wp-content/uploads/2019/02/playalinda-logo.png",
+        "membership": "1"
+      },
+      {
+        "name": "Secure Fence and Rail",
+        "phone": "+1(321) 338-1289",
+        "address": "2300 Columbia Blvd, Titusville, FL 32780",
+        "website": "https://www.securefenceandrail.com/",
+        "imageurl": "https://www.securefenceandrail.com/wp-content/uploads/2016/06/logo.png",
+        "membership": "2"
+      },
+      {
+        "name": "The Great Outdoors",
+        "phone": "+1(800) 621-2267",
+        "address": "125 Plantation Drive, Titusville, Florida 32780 ",
+        "website": "https://www.tgoresort.com/",
+        "imageurl": "https://www.tgoresort.com/wp-content/uploads/elementor/thumbs/TGO_notagline-ozyvygjdi49sdy864bnhph2dzv0qcsp4jkqmbgcsqq.png",
+        "membership": "2"
+      }
+    ]
+  }

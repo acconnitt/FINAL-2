@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="ALEX GIRALDO">
+    <meta name="description" content="Bountiful Foods is small business specializing in organic, locally grown foods.">
+    <meta name="keywords"
+        content="Carlsbad, California, food trucks, local business, fresh food, healthy food, organic food">
+    <!-- FAVICON -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <title>BOUNTIFUL FOODS</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <!-- CAMBIAR -->
+            <a href="index.html"><img src="images/Logo-1.webp" alt="Bountiful Foods Logo"></a>
+        </div>
+        <div class="page-header">
+            <h1>BOUNTIFUL FOODS</h1>
+            <p>Locally Grown Foods</p>
+        </div>
+    </header>
+
+    <nav class="clearfix">
+        <button onclick="toggle()">&#9776; <span class="menu">Menu</span></button>
+        <ul id="nav-menu" class="hide">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="join.html">Fresh</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="hero-image">
+            <picture>
+                <source srcset="images/lima-peru1024.jpg" media="(min-width: 540px) and (max-width: 1023px)">
+                <source srcset="images/lima-peru1600.jpg" media="(min-width: 1024px)">
+                <img src="images/lima-peru540.jpg" alt="Lima coast landscape view from the sky" loading="lazy">
+            </picture>
+        </div>
+
+        <div class="box-container">
+            <h2>THE LOCAL ORGANIC FRUIT CHAIN</h2>
+            <!-- <h3>Your highly useful business resources portal</h3> -->
+            <p>
+                Bountiful Foods is small business specializing in organic, locally grown foods. They are physically
+                located in Carlsbad, California, however, they have many food trucks that cover the coastal area
+                from Los Angeles to San Diego. The company sells fruits and produce directly from the farmers in the
+                area, but also uses some national and international suppliers. The owner-operated company caters to
+                walk in traffic at their storefront in Carlsbad and, of course, their food trucks. They deliver and
+                manage those orders on the phone and via the website. The mission is to provide fresh and healthy
+                food options, including organic, made to order, fruit drinks and fruit bags, to the local population
+                and to tourists visiting the coastal areas. The theme should support healthy eating, organic bounty,
+                and convenience.
+            </p>
+        </div>
+
+        <div class="box-container">
+            <div class="regular-cards menu-directory">
+                <div class="regular-cards cards-locals-dir"></div>
+                <h2>MENU</h2>
+            </div>
+            <div id="call-to-action-button">
+                <a href="fresh.html">
+                    <button type="button">MAKE YOUR OWN</button>
+                </a>
+            </div>
+
+            <div>
+                <div class="cards" loading="lazy"></div>
+            </div>
+        </div>
+
+        <div class="box-container">
+            <div class="regular-cards weather">
+                <h2>LOCAL WEATHER</h2>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="contact-info">
+                <div class="contact-email"><img src="images/bxs-envelope.svg" alt="email icon" width="26">
+                    <p> contact@bf.com </p>
+                </div>
+                <div class="contact-phone"><img src="images/bxs-phone.svg" alt="phone icon" width="26">
+                    <p> 555 - 5555 </p>
+                </div>
+            </div>
+
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank" rel="noreferrer"><img
+                        src="images/bxl-facebook-circle.svg" alt="facebook-icon" width="45"></a>
+                <a href="https://instagram.com" target="_blank" rel="noreferrer"><img src="images/bxl-instagram.svg"
+                        alt="instagram-icon" width="45"></a>
+                <a href="https://twitter.com" target="_blank" rel="noreferrer"><img src="images/bxl-twitter.svg"
+                        alt="twitter-icon" width="45"></a>
+            </div>
+
+            <div class="copyright">
+                Bountiful Foods © 2021
+                <br>
+                Alex Giraldo
+                <br>
+                <span id="last-modification"></span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" rel="preload"></script> -->
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
