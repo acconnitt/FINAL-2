@@ -196,7 +196,7 @@ h3 {
     margin: .75rem;
 }
 
-.regular-cards section {
+.regular-cards, .regular-cards2 section {
     margin: 1rem 1.5%;
     padding: 1rem;
     border-radius: 15px;
@@ -206,6 +206,10 @@ h3 {
         -8px -8px 16px #e8e8e8;
     font-size: 2rem;
     text-align: center;
+}
+.regular-cards2 section{
+    background: #ffffffa5;
+
 }
 
 .regular-cards iframe {

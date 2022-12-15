@@ -1,29 +1,57 @@
 {
-    "local_business": [
+    "drinks": [{
+            "name": "TROPICAL MANGO ",
+            "description": "A tradicional and delicious mango smoothie!",
+            "ingredient": {
+                "fruits": "Mango, Strawberry, Spinach",
+                "number": "Calories: 66"
+            },
+            "image": "./images/Mango-Smoothie-4-2.webp"
+        },
         {
-        "name": "TROPICAL TANGO ",
-        "description": "A tradicional and delicious mango smoothie!",
-        "ingredient": {
-            "street": "Mango",
-            "number": 668,
-            "district": "Surquillo",
-            "postal_code": "Lima 34"
+            "name": "TANGO ",
+            "description": "A tradicional and delicious mango smoothie!",
+            "ingredient": {
+                "fruits": "Strawberry, Orange, Carrot",
+                "number": "Calories: 45"
+            },
+            "image": "./images/Mango-Smoothie-4-2.webp"
         },
-        "contact": {
-            "phone": 5116185151,
-            "email": "info@notariapaino.com.pe"
+        {
+            "name": "Wild ",
+            "description": "A tradicional and delicious mango smoothie!",
+            "ingredient": {
+                "fruits": "Kiwi, Tomato, Spinach, Orange, Pineapple",
+                "number": "Calories: 66"
+            },
+            "image": "./images/Mango-Smoothie-4-2.webp"
         },
-        "image": "notaria-paino.jpg"
-    }, 
-    
-    {
-        "name": "American Sports Car Design",
-        "phone": "+1(321) 268-1118",
-        "address": "1525 Armstrong Dr, Titusville, FL 32780",
-        "website": "https://americansportscar.com/",
-        "imageurl": "https://americansportscar.com/web/wp-content/uploads/sites/2/2016/10/ASC-logo-new.png",
-        "membership": "2"
-      }
-    
-]
+        {
+            "name": "TANGO ",
+            "description": "A tradicional and delicious mango smoothie!",
+            "ingredient": {
+                "fruits": "Mango, Strawberry, Spinach",
+                "number": "Calories: 66"
+            },
+            "image": "./images/Mango-Smoothie-4-2.webp"
+        },
+        {
+            "name": "TROPICAL TANGO ",
+            "description": "A tradicional and delicious mango smoothie!",
+            "ingredient": {
+                "fruits": "Mango, Strawberry, Spinach",
+                "number": "Calories: 66"
+            },
+            "image": "./images/Mango-Smoothie-4-2.webp"
+        },{
+            "name": "TROPICAL TANGO ",
+            "description": "A tradicional and delicious mango smoothie!",
+            "ingredient": {
+                "fruits": "Mango, Strawberry, Spinach",
+                "number": "Calories: 66"
+            },
+            "image": "./images/Mango-Smoothie-4-2.webp"
+        }
+
+    ]
 }

@@ -1,4 +1,3 @@
-
 function toggle() {
     document.getElementById('nav-menu').classList.toggle('hide');
 }
@@ -14,40 +13,35 @@ document.getElementById('last-modification').innerHTML = `Last update: ${dayOfWe
 
 const upcEvURL = 'scripts/menu2.json';
 
-
-
-
-
 fetch(upcEvURL)
     .then(response => response.json())
     .then(jsonObject => {
-        let business = jsonObject.local_business;
-        for (let i = 0; i < 6; i++) {
-            let businessCard = document.createElement('section');
+        let business = jsonObject.drinks;
+        for (let i = 0; i <= 6; i++) {
+            let foodCard = document.createElement('section');
             let localName = document.createElement('h3');
             let localDesc = document.createElement('div');
-            let ingredients = document.createElement('div');
-            let localContact = document.createElement('div');
-            let contactLink = document.createElement('a');
-            let localSite = document.createElement('div');
-            let siteLink = document.createElement('a');
+            let localIng = document.createElement('div');
+            let localNum = document.createElement('div');
+            let localImg = document.createElement('img');
             localName.textContent = business[i].name;
             localDesc.textContent = business[i].description;
-            ingredients.textContent = `${business[i].ingredient.number} ${business[i].ingredient.street}, ${business[i].ingredient.district}`;
-            contactLink.setAttribute('href', `tel:+${business[i].contact.phone}`);
-            contactLink.textContent = `Call: ${business[i].contact.phone}`;
-            localContact.appendChild(contactLink);
-            siteLink.setAttribute('href', `${business[i].url}`);
-            siteLink.setAttribute('target', '_blank');
-            siteLink.setAttribute('rel', 'noreferrer');
-            siteLink.textContent = 'Visit Site';
-            localSite.appendChild(siteLink);
-            businessCard.appendChild(localName);
-            businessCard.appendChild(localDesc);
-            businessCard.appendChild(ingredients);
-            businessCard.appendChild(localContact);
-            businessCard.appendChild(localSite);
-            document.querySelector('div.menu-directory').appendChild(businessCard);
+            localIng.textContent = `${business[i].ingredient.fruits}`;
+            localNum.textContent = `${business[i].ingredient.number}`;
+            localImg.textContent = business[i].image;
+
+
+            localImg.setAttribute('src', business[i].image);
+            localImg.setAttribute('alt', `Drink ${business[i].name}`);
+            localImg.setAttribute('loading', 'lazy');
+
+
+            foodCard.appendChild(localName);
+            foodCard.appendChild(localDesc);
+            foodCard.appendChild(localIng);
+            foodCard.appendChild(localNum);
+            foodCard.appendChild(localImg);
+            document.querySelector('div.menu-directory').appendChild(foodCard);
         };
     })
 
