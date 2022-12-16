@@ -187,7 +187,11 @@ h3 {
 }
 
 main .regular-cards2 img{
-    height: 10rem;
+    height: 20rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    border-color: bisque;
+    border-width: 2px;
     
     /* max-width: 100%;
     margin: 1rem;
@@ -200,10 +204,11 @@ main .regular-cards2 img{
 
 .description p,
 .description ul li,
-.membership p {
+{
     font-size: 1.4rem;
     line-height: 1.4;
     margin: .75rem;
+    margin: 4rem;
 }
 
 .regular-cards, .regular-cards2 section {
@@ -218,14 +223,14 @@ main .regular-cards2 img{
     text-align: center;
 }
 .regular-cards2 section{
-    background: #ffffffa5;
+    /* background: #ffffffa5;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    flex-wrap: wrap;
+    /* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
+    /* flex-wrap: wrap; */
     gap: 2rem;
     padding: 2rem 1em;
     align-items: center;
-}
+} */
 
 .regular-cards iframe {
     width: 100%;
