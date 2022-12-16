@@ -186,51 +186,47 @@ h3 {
     font-size: 2rem;
 }
 
-main .regular-cards2 img{
-    height: 20rem;
+main .regular-cards2 img {
+    width: 20rem;
+    height: auto;
     margin: 1rem;
     border-radius: 2rem;
-    border-color: bisque;
     border-width: 2px;
-    
-    /* max-width: 100%;
+    max-width: 100%;
     margin: 1rem;
-    background-color: ;
-    border-radius: 5%;
-    /* padding: .5rem; */
+    border-radius: 10;
+    padding: .5rem;
 }
 
-
-
 .description p,
-.description ul li,
-{
+.description ul li {
     font-size: 1.4rem;
     line-height: 1.4;
     margin: .75rem;
     margin: 4rem;
 }
 
-.regular-cards, .regular-cards2 section {
+.regular-cards,
+.regular-cards2 section {
     margin: 1rem 1.5%;
     padding: 1rem;
     border-radius: 15px;
-    background: linear-gradient(145deg, #f9f9f9, #257694);
-    ;
+    background: linear-gradient(145deg, #f9f9f9);
     box-shadow: 8px 8px 16px #989898,
         -8px -8px 16px #e8e8e8;
     font-size: 2rem;
     text-align: center;
 }
-.regular-cards2 section{
-    /* background: #ffffffa5;
-    display: grid;
-    /* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
-    /* flex-wrap: wrap; */
-    gap: 2rem;
-    padding: 2rem 1em;
-    align-items: center;
-} */
+
+.regular-cards3 {
+    margin: 1rem 1.5%;
+    padding: 1rem;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #f9f9f9);
+    font-size: 2rem;
+    text-align: center;
+}
+
 
 .regular-cards iframe {
     width: 100%;
@@ -348,7 +344,12 @@ form fieldset {
     border: 1px solid var(--light-color);
     border-radius: 10px;
     padding: .5rem 3%;
+    /* align-items: left; */
+    /* align-self: left; */
+}
 
+.top{
+    text-align: left;
 }
 
 form legend {

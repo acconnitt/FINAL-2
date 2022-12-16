@@ -1,6 +1,6 @@
 {
     "drinks": [{
-            "name": "TROPICAL MANGO ",
+            "name": "TROPICAL MANGO",
             "description": "A tradicional and delicious mango smoothie!",
             "ingredient": {
                 "fruits": "Mango, Strawberry, Spinach",
@@ -9,48 +9,48 @@
             "image": "./images/Mango-Smoothie-4-2.webp"
         },
         {
-            "name": "TANGO ",
-            "description": "A tradicional and delicious mango smoothie!",
+            "name": "MANGO TANGO",
+            "description": "An smoothie that will make you dance",
             "ingredient": {
                 "fruits": "Strawberry, Orange, Carrot",
                 "number": "Calories: 45"
             },
-            "image": "./images/Mango-Smoothie-4-2.webp"
+            "image": "./images/Tropical-Smoothie.jpg"
         },
         {
-            "name": "Wild ",
-            "description": "A tradicional and delicious mango smoothie!",
+            "name": "FOREST WILD",
+            "description": "Smell the forest!",
             "ingredient": {
                 "fruits": "Kiwi, Tomato, Spinach, Orange, Pineapple",
-                "number": "Calories: 66"
+                "number": "Calories: 201"
             },
-            "image": "./images/Mango-Smoothie-4-2.webp"
+            "image": "./images/Tropical-Smoothie-done.jpg"
         },
         {
-            "name": "TANGO ",
-            "description": "A tradicional and delicious mango smoothie!",
+            "name": "HOUSE SPECIAL",
+            "description": "The best of the best",
             "ingredient": {
-                "fruits": "Mango, Strawberry, Spinach",
-                "number": "Calories: 66"
+                "fruits": "Apple, Raspberries, Watermelon",
+                "number": "Calories: 106"
             },
-            "image": "./images/Mango-Smoothie-4-2.webp"
+            "image": "./images/Peach-Smoothie.jpg"
         },
         {
-            "name": "TROPICAL TANGO ",
-            "description": "A tradicional and delicious mango smoothie!",
+            "name": "GREEN RIVER",
+            "description": "A nature drink",
             "ingredient": {
-                "fruits": "Mango, Strawberry, Spinach",
-                "number": "Calories: 66"
+                "fruits": "Melon, Mango, Pear, Passion Fruit",
+                "number": "Calories: 99"
             },
-            "image": "./images/Mango-Smoothie-4-2.webp"
+            "image": "./images/Strawberry-smoothie.jpg"
         },{
-            "name": "TROPICAL TANGO ",
-            "description": "A tradicional and delicious mango smoothie!",
+            "name": "OCEAN BLUE",
+            "description": "A colorfull smoothie!!!",
             "ingredient": {
-                "fruits": "Mango, Strawberry, Spinach",
-                "number": "Calories: 66"
+                "fruits": "Kiwi, Guanabana, Lemon, Sugar Cane",
+                "number": "Calories: 134"
             },
-            "image": "./images/Mango-Smoothie-4-2.webp"
+            "image": "./images/Smoothie-green.jpg"
         }
 
     ]
