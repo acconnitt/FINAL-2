@@ -10,7 +10,7 @@
     <meta name="description" content="Bountiful Foods is small business specializing in organic, locally grown foods.">
     <meta name="keywords"
         content="Carlsbad, California, food trucks, local business, fresh food, healthy food, organic food">
-    <!-- FAVICON -->
+    <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -47,47 +47,54 @@
     <main>
         <div class="hero-image">
             <picture>
-                <img src="images/Homemade-Breakfast-Smoothie.jpg" width="600" height="auto" alt="Carlsbad" loading="lazy" >
+                <img src="images/Homemade-Breakfast-Smoothie.jpg" width="600" height="auto" alt="Carlsbad"
+                    loading="lazy">
             </picture>
         </div>
 
         <div class="box-container">
-            <h2>BUILD YOUR OWN CREATION</h2>
-            <p>
-                Founded in 2000, we are the pioneers in the 100% organic fruits in the California area.
-                We have been serving in Carlsbad for the past 22 years and we currently have 3 locations – on Los
-                Angeles, San Diego. We offer catering for any special events! Bring your friends and Family!
-            </p>
-            <p>
-                100% fresh products & delicious food. We offer a variety of healthy, wholesome and nutritious fresh
-                products essential to a healthy lifestyle. Whether you are looking for a healthy lunchtime snack, or
-                want to give someone a tasty special treat, we have the right food for you.
-            </p>
-            <p>
-                Friendly staff & relaxing atmosphere. Everyone who works here is friendly, fun and easy to talk to. In
-                this way we make you feel relaxed. Our place is relaxing and comfortable so you can enjoy your food and
-                still feel comfortable.
-            </p>
+            <h2>5 EASY STEPS TO MAKING A HEALTHY SMOOTHIE</h2>
+            <ol>
+                <li>Decide what fruit you want to make your smoothie. ...</li>
+                <li>Decide what liquid you want. ...</li>
+                <li>Add some green. ...</li>
+                <li>Add some sweeten. ...</li>
+                <li>Blend your ingredients. ...</li>
+                <li>Shake well before drinking it.</li>
+            </ol>
+            <P>
+                We offer catering for any special events!
+                <br>
+                Bring your friends and family!
+            </P>
         </div>
 
         <div class="box-container">
-            <div class="regular-cards">
-                <h2>FEEDBACK</h2>
+            <div class="regular-cards3">
+                <h2>YOUR ORDER</h2>
                 <!-- CAMBIAR -->
-                <form action="#" method="GET">
+                <form action="#" method="GET" id="form">
                     <fieldset>
                         <label class="top" for="fname">NAME<input type="text" name="fname" id="fname" pattern=".{5,}"
                                 placeholder="Your Name" title="Only letters and at least 5 characters" required></label>
 
                         <label class="top" for="phone">PHONE<input type="tel" name="phone" id="phone"
-                                placeholder="Phone Number"></label>
+                                placeholder="Phone Number" required></label>
 
                         <label class="top" for="email">EMAIL<input type="email" name="email" id="email"
                                 placeholder="youremail@email.com" required></label>
+                    </fieldset>
+                    <fieldset>
+                        <label class="top" for="orderName">CREATION<input type="text" name="orderName" id="orderName"
+                                pattern=".{5,}" placeholder="Creation Name" title="Enter at least 5 characters"
+                                required></label>
 
-                        <label class="top" for="textfield">SEND US YOUR THOUGHTS <textarea name="textfield"
-                                id="textfield" placeholder="Please send us your concern" cols="30"
-                                rows="10"></textarea></label>
+                        <label class="top" for="sugar">SWEETEN<input type="text" name="sugar" id="sugar" pattern=".{5,}"
+                                placeholder="Sweeten" title="Choose One" required></label>
+
+                        <label class="top" for="orderName">MILK<input type="text" name="milk" id="milk"
+                                pattern=".{5,}" placeholder="Milk" title="Choose One"
+                                required></label>
                     </fieldset>
                     <div id="call-to-action-button">
                         <input type="submit" value="SEND">
@@ -129,6 +136,7 @@
     </footer>
 
     <script src="scripts/script.js"></script>
+    <script src="scripts/order-form.js"></script>
 </body>
 
 </html>
