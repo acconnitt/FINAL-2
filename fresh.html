@@ -71,36 +71,50 @@
 
         <div class="box-container">
             <div class="regular-cards3">
-                <h2>YOUR ORDER</h2>
+                <h2>MAKE YOUR OWN</h2>
                 <!-- CAMBIAR -->
                 <form action="#" method="GET" id="form">
                     <fieldset>
-                        <label class="top" for="fname">NAME<input type="text" name="fname" id="fname" pattern=".{5,}"
-                                placeholder="Your Name" title="Only letters and at least 5 characters" required></label>
-
+                        <label class="top" for="name">NAME<input type="text" name="name" id="name" pattern=".{5,}"
+                                placeholder="Full Name" title="Only letters and at least 5 characters" required>
+                        </label>
                         <label class="top" for="phone">PHONE<input type="tel" name="phone" id="phone"
-                                placeholder="Phone Number" required></label>
-
+                                placeholder="Phone Number" required>
+                        </label>
                         <label class="top" for="email">EMAIL<input type="email" name="email" id="email"
-                                placeholder="youremail@email.com" required></label>
+                                placeholder="youremail@email.com" required>
+                        </label>
                     </fieldset>
                     <fieldset>
-                        <label class="top" for="orderName">CREATION<input type="text" name="orderName" id="orderName"
-                                pattern=".{5,}" placeholder="Creation Name" title="Enter at least 5 characters"
-                                required></label>
-
-                        <label class="top" for="sugar">SWEETEN<input type="text" name="sugar" id="sugar" pattern=".{5,}"
-                                placeholder="Sweeten" title="Choose One" required></label>
-
-                        <label class="top" for="orderName">MILK<input type="text" name="milk" id="milk"
-                                pattern=".{5,}" placeholder="Milk" title="Choose One"
-                                required></label>
+                        <label class="top2" for="ingredient-1">FIRST INGREDIENT<input type="text" name="ingredient-1"
+                                id="ingredient-1" placeholder="Ex: Mango...">
+                        </label>
+                        <label class="top2" for="ingredient-2">FIRST INGREDIENT<input type="text" name="ingredient-2"
+                                id="ingredient-2" placeholder="Ex: Mango...">
+                        </label>
+                        <label class="top2" for="ingredient-3">FIRST INGREDIENT<input type="text" name="ingredient-3"
+                                id="ingredient-3" placeholder="Ex: Mango...">
+                        </label>
+                        <label class="top2" for="ingredient-4">FIRST INGREDIENT<input type="text" name="ingredient-4"
+                                id="ingredient-2" placeholder="Ex: Mango...">
+                        </label>
                     </fieldset>
+
+                    <!-- <input type="checkbox" id="fruit" value="mango">
+                        <label class="top">Mango</label>
+                        <input type="checkbox" id="fruit" value="orange">
+                        <label class="top">Orange</label> -->
+
                     <div id="call-to-action-button">
                         <input type="submit" value="SEND">
                     </div>
                 </form>
             </div>
+        </div>
+
+        <div class="box-container">
+            <h2>YOUR UNIQUE ORDER</h2>
+            <div id="data"></div>
         </div>
 
     </main>
